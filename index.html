@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Guide</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./Styles/apresentacao.css">
+    <link rel="stylesheet" href="./Styles/rodape.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container cabecalho__esquerda">
+            <img src="./Assets/Logo.png" alt="Logo da empresa">
+            <a href="#" class="container__conteudo">
+                <img src="./Assets/home.png" alt="Icone do home">
+                <p>Home</p>
+            </a>
+            <a href="#" class="container__conteudo">About</a>
+        </div>
+        <div class="container cabecalho__direita">
+            <input type="search" placeholder="Search" class="container__pesquisa">
+            <a href="#" class="container__conteudo">
+                <img src="./Assets/login.png" alt="Icone de login">
+                <p>Login</p>
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="faixa-azul__header"></div>
+        <section class="apresentacao">
+            <div class="apresentacao__textos">
+                <h1 class="apresentacao__titulo">Nulla vestibulum lobortis</h1>
+                <p class="apresentacao__paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dignissim, ipsum a aliquam porta, nibh lacus hendrerit ante, eget aliquam quam justo quis libero. Maecenas vitae urna rutrum, ornare enim non, efficitur risus.</p>
+            </div>
+            <div class="apresentacao__imagens">
+                <img class="imagem-atendente" src="./Assets/imagem-atendente.png" alt="imagem aeromoça">
+                <img class="imagem-familia" src="./Assets/imagem-familia.png" alt="imagem família viajando">
+            </div>
+        </section>
+        
+        <section class="destinos">
+            <h2 class="destinos__titulo">Destinations</h2>
+            <div class="destinos__cards">
+                <div class="card">
+                    <img class="card__img" src="./Assets/Cancun.jpg" alt="Imagem Cancun">
+                    <div class="card__conteudo">
+                        <h3 class="cidade">Cancun</h3>
+                        <ul class="lista-servicos">
+                            <li class="hotel">HOTEL</li>
+                            <li class="voo">FLIGHT</li>
+                            <li class="transfer">TRANSFER</li>
+                        </ul>
+                        <p class="preco">U$D 400,00</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card__img" src="./Assets/NewYork.jpg" alt="Imagem Nova York">
+                    <div class="card__conteudo">
+                        <h3 class="cidade">New York</h3>
+                        <ul class="lista-servicos">
+                            <li class="hotel">HOTEL</li>
+                            <li class="voo">FLIGHT</li>
+                            <li class="transfer">TRANSFER</li>
+                        </ul>
+                        <p class="preco">U$D 550,00</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card__img" src="./Assets/Santiago.jpg" alt="Imagem Santiago">
+                    <div class="card__conteudo">
+                        <h3 class="cidade">Santiago</h3>
+                        <ul class="lista-servicos">
+                            <li class="hotel">HOTEL</li>
+                            <li class="voo">FLIGHT</li>
+                            <li class="transfer">TRANSFER</li>
+                        </ul>
+                        <p class="preco">U$D 250,00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sobre">
+            <div class="seguir__conteudo">
+                <div class="pagamento">
+                    <h3 class="sobre__titulo">Payment</h3>
+                    <ul class="pagamento__lista">
+                        <li class="lista__item">
+                            <div class="pagamento__card">
+                                <img class="pagamento__card__imagem" src="./Assets/master-card.png" alt="Logo MasterCard">
+                            </div>
+                        </li>
+                        <li class="lista__item">
+                            <div class="pagamento__card">
+                            <img class="pagamento__card__imagem" src="./Assets/visa.png" alt="Logo Visa">
+                            </div> 
+                        </li>
+                    </ul>  
+                </div>
+            </div>    
+            <div class="seguir">
+                <div class="seguir__conteudo">
+                    <h3 class="sobre__titulo">Follow Us</h3>
+                    <ul class="seguir__lista">
+                        <li class="lista__item">
+                            <a href="#" class="seguir__link">
+                                <img class="link__img" src="./Assets/instagram.png" alt="logo instagram">
+                                <p class="link__texto">Instagram</p>
+                            </a>
+                        </li>
+                        <li class="lista__item">
+                            <a href="#" class="seguir__link seguir__link__twitter">
+                                <img class="link__img link__img__twitter" src="./Assets/twitter.png" alt="logo twitter">
+                                <p class="link__texto">Twitter</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cadastro">
+                <div class="cadastro__conteudo">
+                    <h3 class="sobre__titulo">Register</h3>
+                    <ul class="cadastro__lista">
+                        <li class="lista__item">
+                            <input class="botao__cadastro" type="text" placeholder="Name">
+                        </li>
+                        <li class="lista__item">
+                            <input class="botao__cadastro" type="email" placeholder="Your e-mail">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p class="rodape__texto">Checkpoint 2 - Front-end</p>
+    </footer>
+</body>
+</html>

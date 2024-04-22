@@ -1,0 +1,70 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--azul-fraco);
+    padding: 0 32px;
+    font-size: 16px;
+}
+
+.cabecalho__esquerda{
+    gap: 60px;
+}
+
+.cabecalho__direita{
+    gap: 30px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    height: 95px;
+}
+
+.container__conteudo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--preto);
+    background-color: var(--cor-de-fundo);
+    border: 1px solid var(--cor-de-fundo);
+    border-radius: 8px;
+    width: 120px;
+    height: 50px;
+    justify-content: center;
+    box-shadow: 2px 2px 2px var(--sombra);
+    gap: 7px;
+}
+
+.container__conteudo:hover{
+    background-color: var(--branco);
+}
+
+.container__pesquisa{
+    background-color: var(--cor-de-fundo);
+    color: var(--preto);
+    border: none;
+    border-radius: 8px;
+    width: 125px;
+    height: 50px;
+    box-shadow: 2px 2px 2px var(--sombra);
+}
+
+.container__pesquisa:hover{
+    background-color: var(--branco);
+}
+
+.container__pesquisa::placeholder{
+    font-family: "Krona One", sans-serif;
+    font-size: 16px;
+    color: var(--preto);
+    background: url("../Assets/Lupa\ pesquisa.png")no-repeat;
+    text-align: center;
+    background-position: 0px;
+    padding: 0 0 0 37px;
+}
+
+.faixa-azul__header{
+    background-color: var(--azul-forte);
+    width: 100vw;
+    height: 20px;
+    margin-bottom: 3rem;}
